@@ -1,0 +1,55 @@
+.download{
+    width: 100%;
+    height: 150px;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download_container{
+    display: flex;
+    width: 74%;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.text-album{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.text-album h4{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 300;
+}
+.text-album p{
+    font-weight: 300;
+    text-align: center;
+}
+
+.appstore{
+    color: white;
+}
+.appstore i{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.appstore button{
+    width: 130px;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    border-radius: 5%;
+    outline: none;
+}
+.appstore span
+{
+    font-size: 1.5rem;
+}
+.download img{
+    width: 100%;
+    border-radius: 10%;
+}

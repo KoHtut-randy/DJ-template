@@ -1,0 +1,57 @@
+.hero{
+    width: 100%;
+    background-image: url(/image/fusehero.jpg);
+    background-size: auto;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: ;
+
+}
+.hero_container{
+    width: 74%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    flex: 1;
+}
+.hero_container-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_container-title h1{
+    color: rgb(253,28,3);
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'neofont';
+}
+.hero_container-title h2{
+    color: rgb(253,28,3);
+    font-size: 4rem;
+    padding: 0.8rem;
+    font-family: 'neofont';
+}
+.hero_container-title p{
+    font-size: 1rem;
+    color:rgb(253,28,3);
+}
+.hero_container-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+
+   
+}
+.hero_container-button i{
+    display: flex;
+    color:royalblue;
+    margin: 1px;
+    font-size: 4rem;
+   
+}

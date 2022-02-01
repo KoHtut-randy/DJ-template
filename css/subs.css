@@ -1,0 +1,48 @@
+.subs{
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    background-image:url(/image/subs.jpg);
+    background-size: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.subs_container{
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subs_container-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.subs_container-title h4{
+    font-size: 3rem;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin: 1rem;
+    margin-bottom: 1.5rem;
+    font-family: 'royalfont';
+}
+.subs_container-input input{
+    height:auto;
+    width: 350px;
+    border-radius: 100px;
+    text-indent: 1rem;
+    margin-right: 2rem;
+    outline: none;
+    border: none;
+}
+.subs_container-input button{
+    color: white;
+    background-color: royalblue;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    padding: 4px;
+}

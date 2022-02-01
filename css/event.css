@@ -1,0 +1,66 @@
+.event{
+    background-image:url(/image/lalala.jpg);
+    background-size: 100%;
+    background-position: center center;
+    background-attachment:;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 550px;
+    justify-content: center;
+    font-family:'partyfont';
+}
+.event_container{
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.event_container-title{
+    margin: 3rem;
+}
+.event_container-title h1{
+    font-size: 4rem;
+    color: white;
+    font-weight: 300;
+
+}
+.event_card{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+    margin-right: 3rem;
+    transition: all 0.3s;
+}
+.event_card-article{
+    width: 220px;
+    height: 320px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.event_card-article:hover{
+    margin-bottom: 2rem;
+    box-shadow: 10px 22px 62px -5px rgba(253,28,3,0.75);
+-webkit-box-shadow: 10px 22px 62px -5px rgba(253,28,3,0.75);
+-moz-box-shadow: 10px 22px 62px -5px rgba(253,28,3,0.75);
+}
+.event_card-article h1{
+    color:crimson;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+}
+.event_card-article h5{
+    color:crimson;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+.event_card-article span{
+    color: blue;
+    font-size: 0.8rem;
+    padding-top:0.5rem;
+}
+.event img{
+    width: 220px;
+    height: 280px;
+}

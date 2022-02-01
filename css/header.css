@@ -1,0 +1,45 @@
+header{
+    background-color: black;
+    height: 100px;
+}
+.nav_bar{
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: auto;
+    padding: 1rem 0;
+}
+.nav_bar-logo{
+    width: 150px;
+    height: auto;
+    display: flex;
+}
+.nav_bar-logo img{
+    width: 50%;
+}
+.nav_bar_container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav_bar_item{
+    margin: 0 0.6rem;
+    font-size: 0.6rem;
+    transition: all 0.3s;
+}
+.nav_bar_item:hover{
+    color: #7B5506;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.nav_bar_search{
+    display:block;
+    text-align: center;
+    margin: auto 0;
+}
+.nav_bar_search i{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}

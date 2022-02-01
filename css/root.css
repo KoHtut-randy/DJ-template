@@ -1,0 +1,33 @@
+:root{
+
+}
+html{
+    background-color: white;
+    width: 100vw;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+
+}
+body{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    min-height: 100vh;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+@font-face {
+    font-family: partyfont;
+    src: url(../fonts/HugeParty.ttf);
+  }
+  @font-face {
+    font-family:ninefont;
+    src: url(../fonts/Arcane\ Nine.otf);
+  }
+  @font-face {
+    font-family: albumfont;
+    src: url(../fonts/Album.ttf);
+  }
+  @font-face {
+    font-family: neofont;
+    src: url(../fonts/NEONLEDLight.otf);
+  }
