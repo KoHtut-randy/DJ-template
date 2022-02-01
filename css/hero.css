@@ -1,8 +1,8 @@
 .hero{
     width: 100%;
-    background-image: url(/image/fusehero.jpg);
-    background-size: auto;
-    background-position: center;
+    background-image: url(../image/professional-african-american-club-dj-on-concert-i-2021-09-28-22-58-44-utc.jpg);
+    background-size: 100%;
+    background-position: center center;
     height: 400px;
     display: flex;
     align-items: center;

@@ -31,3 +31,8 @@ body{
     font-family: neofont;
     src: url(../fonts/NEONLEDLight.otf);
   }
+  
+  @font-face {
+    font-family: royalfont;
+    src: url(../fonts/Royalacid.ttf);
+  }
